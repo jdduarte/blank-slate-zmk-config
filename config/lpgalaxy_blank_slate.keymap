@@ -45,7 +45,7 @@
 
         nav_layer {
             bindings = <    
-            &trans      &C_BRI_D   &C_BRI_UP &trans    &trans     &C_PREV    &C_PP      &C_NEXT    &UP         &C_MUTE    &C_VOL_DN   &C_VOL_UP
+            &trans      &C_BRI_DN  &C_BRI_UP &trans    &trans     &C_PREV    &C_PP      &C_NEXT    &UP         &C_MUTE     &C_VOL_DN   &C_VOL_UP
             &trans      &trans     &trans    &trans    &trans     &trans     &trans     &LEFT      &DOWN       &RIGHT      &trans      &trans
             &trans      &trans     &trans    &trans    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans
             &trans      &trans     &trans    &trans    &trans           &trans          &trans     &trans      &bt BT_CLR  &bt BT_PRV  &bt BT_NXT
