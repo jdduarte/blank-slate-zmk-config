@@ -45,25 +45,25 @@
 
         nav_layer {
             bindings = <    
-            &trans      &C_BRI_DN  &C_BRI_UP &trans    &trans     &C_PREV    &C_PP      &C_NEXT    &UP         &C_MUTE     &C_VOL_DN   &C_VOL_UP
-            &trans      &trans     &trans    &trans    &trans     &trans     &trans     &LEFT      &DOWN       &RIGHT      &trans      &trans
-            &trans      &trans     &trans    &trans    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans
-            &trans      &trans     &trans    &trans    &trans           &trans          &trans     &trans      &bt BT_CLR  &bt BT_PRV  &bt BT_NXT
+            &trans      &kp C_BRI_DN &kp C_BRI_UP &trans    &trans     &kp C_PREV &kp C_PP   &kp C_NEXT &kp UP   &kp C_MUTE  &kp C_VOL_DN &kp C_VOL_UP
+            &trans      &trans       &trans       &trans    &trans     &trans     &trans     &kp LEFT   &kp DOWN &kp RIGHT   &trans       &trans
+            &trans      &trans       &trans       &trans    &trans     &trans     &trans     &trans     &trans   &trans      &trans       &trans
+            &trans      &trans       &trans       &trans    &trans           &trans          &trans     &trans   &bt BT_CLR  &bt BT_PRV   &bt BT_NXT
             >;
         };
 
         programmer_layer {
             bindings = <
-            &GRAVE      &trans     &trans    &trans    &trans     &trans     &DQL       &LPAR      &RPAR       &trans      &MINUS      &EQUAL
-            &trans      &trans     &trans    &trans    &trans     &trans     &SQT       &LBRC      &RBRC       &trans      &trans      &BSLH
-            &trans      &trans     &trans    &trans    &trans     &trans     &trans     &LBKT      &RBKT       &trans      &trans      &trans
+            &kp GRAVE   &trans     &trans    &trans    &trans     &trans     &kp DQL    &kp LPAR   &kp RPAR    &trans      &kp MINUS   &kp EQUAL
+            &trans      &trans     &trans    &trans    &trans     &trans     &kp SQT    &kp LBRC   &kp RBRC    &trans      &trans      &kp BSLH
+            &trans      &trans     &trans    &trans    &trans     &trans     &trans     &kp LBKT   &kp RBKT    &trans      &trans      &trans
             &trans      &trans     &trans    &trans    &trans           &trans          &trans     &trans      &trans      &trans      &trans
             >;
         };
 
         num_layer {
             bindings = <
-            &trans      &N1        &N2       &N3       &N4        &N5        &N6        &N7        &N8         &N9         &N0         &trans
+            &trans      &kp N1     &kp N2    &kp N3    &kp N4     &kp N5     &kp N6     &kp N7     &kp N8      &kp N9      &kp N0      &trans
             &trans      &trans     &trans    &trans    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans
             &trans      &trans     &trans    &trans    &trans     &trans     &trans     &trans     &trans      &trans      &trans      &trans
             &trans      &trans     &trans    &trans    &trans           &trans          &trans     &trans      &trans      &trans      &trans
