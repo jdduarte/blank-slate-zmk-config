@@ -54,7 +54,7 @@
 
         programmer_layer {
             bindings = <
-            &kp GRAVE   &trans     &trans    &trans    &trans     &trans     &kp DQL    &kp LPAR   &kp RPAR    &trans      &kp MINUS   &kp EQUAL
+            &kp GRAVE   &trans     &trans    &trans    &trans     &trans     &kp DQT    &kp LPAR   &kp RPAR    &trans      &kp MINUS   &kp EQUAL
             &trans      &trans     &trans    &trans    &trans     &trans     &kp SQT    &kp LBRC   &kp RBRC    &trans      &trans      &kp BSLH
             &trans      &trans     &trans    &trans    &trans     &trans     &trans     &kp LBKT   &kp RBKT    &trans      &trans      &trans
             &trans      &trans     &trans    &trans    &trans           &trans          &trans     &trans      &trans      &trans      &trans
